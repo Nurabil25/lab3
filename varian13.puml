@@ -31,4 +31,24 @@ class preposition {}
 class conjuction {}
 class pronoun {}
 class interjection {}
+
+file --> program
+program <--> words
+words --|> noun
+words --|> adverb
+words --|> adjective
+words --|> preposition
+words --|> conjuction
+words --|> verb
+words --|> pronoun
+words --|> interjection
+noun --|> counter
+adverb --|> counter
+verb --|> counter
+adjective --|> counter
+preposition --|> counter
+conjuction --|> counter
+pronoun --|> counter
+interjection --|> counter
+
 @enduml
