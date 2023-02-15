@@ -7,12 +7,20 @@ class file {
 
 class program {
 +text
+getText
+}
+
+class words {
++text
++word
+breaksTextIntoWords
 }
 
 class counter {
 +adverb
 +verb
 +adjective
+countNumberOfCertainPartOfSpeech
 }
 
 class noun {}
